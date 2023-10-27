@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import Card from './components/card'
+import Card from './components/Card'
 
 import { constants } from './constants'
 import { Route,Routes,Link } from 'react-router-dom'
@@ -21,7 +21,7 @@ function App() {
       {/* animate-infinite-scroll */}
      <Route  path='/' element={
      <section className='flex justify-center '>
-     <div className='grid  gap-9   xl:grid-cols-6 md:grid-cols-2 sm:grid-cols-1 mt-40   '>
+     <div className='grid  gap-9   lg:grid-cols-5 xl:grid-cols-6 md:grid-cols-2 sm:grid-cols-1 mt-40   '>
      {constants?.map(con=>(
        
 
