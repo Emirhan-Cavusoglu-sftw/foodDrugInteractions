@@ -21,7 +21,7 @@ function App() {
       {/* animate-infinite-scroll */}
      <Route  path='/' element={
      <section className='flex justify-center '>
-     <div className='grid  gap-9   lg:grid-cols-5 xl:grid-cols-6 md:grid-cols-2 sm:grid-cols-1 mt-40   '>
+     <div className='grid  gap-9  2xl:grid-cols-5 xl:grid-cols-4 lg:grid-cols-3  md:grid-cols-2 sm:grid-cols-1 mt-40    '>
      {constants?.map(con=>(
        
 
