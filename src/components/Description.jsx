@@ -22,7 +22,9 @@ const Description = ({constants}) => {
     },[title])
   
     return (
-    <main className='leading-10 text-center justify-center items-center flex flex-col'>
+    <main className='leading-10 text-center justify-center items-center flex flex-col bg-black h-[200vh] '>
+       <div className='mb-[550px]'>
+
        <h1 className='text-green-400 text-4xl font-bold '>{titlee}</h1>
 
         <h1 className='text-cyan-400 text-2xl font-bold mt-48 max-w-7xl'>{description}</h1>
@@ -35,6 +37,7 @@ const Description = ({constants}) => {
 
         <img src={image1} alt="naa" width={300}  />
         <img src={image2} alt="elma" width={200}  />
+       </div>
        </div>
 
 

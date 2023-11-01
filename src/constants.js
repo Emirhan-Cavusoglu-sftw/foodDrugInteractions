@@ -51,7 +51,7 @@ const constants = [
 
        description:"K Vitaminince zengin besinlerle Brokoli, Brüksel lahanası, Ispanak, Lahana, E Vitamini ile birlikte alınmamalıdır. K Vitamini antikoagülanların etkisini azaltır.",
     
-       color:"bg-pink-700",
+       color:"bg-yellow-950",
        
        image1:nar,
 
@@ -67,35 +67,35 @@ const constants = [
        description:"K Vitaminince zengin besinlerle Brokoli, Brüksel lahanası, Ispanak, Lahana, E Vitamini ile birlikte alınmamalıdır. K Vitamini antikoagülanların etkisini azaltır.",
 
     
-       color:"bg-pink-700"
+       color:"bg-lime-600"
     },
     {
        title:"ANTİKOAGÜLANLAR",
 
        description:"K Vitaminince zengin besinlerle Brokoli, Brüksel lahanası, Ispanak, Lahana, E Vitamini ile birlikte alınmamalıdır. K Vitamini antikoagülanların etkisini azaltır.",
     
-       color:"bg-pink-700"
+       color:"bg-violet-800"
     },
     {
        title:"ANTİKOAGÜLANLAR",
 
        description:"K Vitaminince zengin besinlerle Brokoli, Brüksel lahanası, Ispanak, Lahana, E Vitamini ile birlikte alınmamalıdır. K Vitamini antikoagülanların etkisini azaltır.",
     
-       color:"bg-pink-700"
+       color:"bg-rose-500"
     },
     {
        title:"ANTİKOAGÜLANLAR",
 
        description:"K Vitaminince zengin besinlerle Brokoli, Brüksel lahanası, Ispanak, Lahana, E Vitamini ile birlikte alınmamalıdır. K Vitamini antikoagülanların etkisini azaltır.",
     
-       color:"bg-pink-700"
+       color:"bg-orange-700"
     },
     {
        title:"ANTİKOAGÜLANLAR",
 
        description:"K Vitaminince zengin besinlerle Brokoli, Brüksel lahanası, Ispanak, Lahana, E Vitamini ile birlikte alınmamalıdır. K Vitamini antikoagülanların etkisini azaltır.",
     
-       color:"bg-pink-700"
+       color:"bg-amber-500"
        
     },
     {
@@ -103,7 +103,7 @@ const constants = [
 
        description:"K Vitaminince zengin besinlerle Brokoli, Brüksel lahanası, Ispanak, Lahana, E Vitamini ile birlikte alınmamalıdır. K Vitamini antikoagülanların etkisini azaltır.",
     
-       color:"bg-pink-700"
+       color:"bg-amber-950"
     },
     {
        title:"ANTİKOAGÜLANLAR",

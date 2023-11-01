@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 const Card = ({constants}) => {
   return (
-    <div className='bg-teal-500 rounded-lg flex-1 shadow p-6   hover:bg-slate-600 flex justify-center text-center min-w-min overflow-visible ' >
+    <div className={` ${constants.color}  rounded-lg flex-1 shadow-sm p-6    hover:bg-slate-600 flex justify-center text-center min-w-min overflow-visible `} >
 
 
     

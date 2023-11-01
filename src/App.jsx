@@ -11,17 +11,18 @@ function App() {
 
   return (
     <>
-    <section>
-      
-      
-      
-      
-      </section>  
+    
      <Routes>
       {/* animate-infinite-scroll */}
      <Route  path='/' element={
-     <section className='flex justify-center '>
-     <div className='grid  gap-9  2xl:grid-cols-5 xl:grid-cols-4 lg:grid-cols-3  md:grid-cols-2 sm:grid-cols-1 mt-40    '>
+      <>
+      <section className='bg-black h-6 fixed left-0 right-0'>
+          <div>
+            
+          </div>
+      </section>
+     <section className='flex justify-center  animate-infinite-gradient-color'>
+     <div className='grid  gap-9  2xl:grid-cols-5 xl:grid-cols-4 lg:grid-cols-3    md:grid-cols-2 sm:grid-cols-1  mt-40     '>
      {constants?.map(con=>(
        
 
@@ -30,6 +31,7 @@ function App() {
         ))}
         </div>
         </section>
+        </>
         }
       ></Route>
      <Route  path='/:title' element={<Description constants={constants}/>} />
