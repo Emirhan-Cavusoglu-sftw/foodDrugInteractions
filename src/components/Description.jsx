@@ -34,9 +34,9 @@ const Description = ({constants}) => {
       
     
     <main className='flex flex-col leading-10 text-center justify-center items-center bg-gradient-to-b from-gray-900 via-purple-900 to-violet-600flex   h-[200vh]  '>
-       <div className='mb-[550px] text-justify flex flex-col justify-center items-center  max-w-[1000px] '>
+       <div className='mb-[550px] mt-28  text-justify flex flex-col justify-center items-center  max-w-[1000px] '>
 
-       <h1 className='text-white text-7xl font-bold font-rightheus mt-12 text-transparent bg-clip-text bg-gradient-to-r from-yellow-200 via-violet-400 to-lime-400'>{titlee}</h1>
+       <h1 className=' text-5xl font-bold font-rightheus mt-12 text-transparent bg-clip-text bg-gradient-to-r from-yellow-200 via-violet-400 to-lime-400'>{titlee}</h1>
 
         {/* <h1 className='text-cyan-400 text-2xl font-bold mt-48 max-w-7xl'>{description}</h1> 
         
@@ -50,14 +50,14 @@ const Description = ({constants}) => {
 
          <blockquote>
         <p className='mt-14  font-bold font-palanquin text-transparent bg-clip-text bg-gradient-to-r from-amber-300 via-amber-400 to-amber-500
- leading-10 text-3xl  max-w-5xl  '>
+ leading-10 text-2xl  max-w-5xl  '>
           {description1}  
         </p>
          </blockquote>
 
-        <h2 className='text-yellow-50 text-5xl font-bold font-kanit mt-7 text-transparent bg-clip-text bg-gradient-to-r from-green-300 via-green-400 to-green-500'>Besinlerle etkileşimi</h2>
+        <h2 className=' text-4xl font-bold font-kanit mt-7 text-transparent bg-clip-text bg-gradient-to-r from-green-300 via-green-400 to-green-500'>Besinlerle etkileşimi</h2>
 
-        <ul className='list-disc text-3xl mt-10  font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-yellow-200 via-green-200 to-green-500 space-y-5 '>
+        <ul className='list-disc text-xl mt-10  font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-yellow-200 via-green-200 to-green-500 space-y-5 '>
           <li>{list1}</li>
           <li>{list2}</li>
         </ul>
