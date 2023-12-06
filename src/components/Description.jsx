@@ -33,10 +33,10 @@ const Description = ({constants}) => {
     
       
     
-    <main className='flex flex-col leading-10 text-center justify-center items-center bg-gradient-to-b from-gray-900 via-purple-900 to-violet-600flex   h-[200vh]  '>
-       <div className='mb-[550px] mt-28  text-justify flex flex-col justify-center items-center  max-w-[1000px] '>
+    <main className='flex flex-col leading-10 text-center justify-center items-center bg-gradient-to-b from-gray-900 via-purple-900 to-violet-600flex     '>
+       <div className='mb-[550px] mt-10  text-justify flex flex-col justify-center items-center  max-w-[1000px] '>
 
-       <h1 className=' text-5xl font-bold font-rightheus mt-12 text-transparent bg-clip-text bg-gradient-to-r from-yellow-200 via-violet-400 to-lime-400'>{titlee}</h1>
+       <h1 className=' text-5xl font-bold font-rightheus   text-transparent bg-clip-text bg-gradient-to-r from-yellow-200 via-violet-400 to-lime-400'>{titlee}</h1>
 
         {/* <h1 className='text-cyan-400 text-2xl font-bold mt-48 max-w-7xl'>{description}</h1> 
         
