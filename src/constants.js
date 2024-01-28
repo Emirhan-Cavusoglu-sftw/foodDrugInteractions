@@ -17,7 +17,7 @@ import { nar,apple1,apple2 ,apple3} from "./assets/images";
 
 const constants = [
     {
-        title:"ANTİBİYOTİKLER",
+        title:"Kan Sulandırıcılar",
 
         description:"Asitli besinler; Kafein, domates, meyva suları,asitli besinler; Kafein, domates,süt ve süt ürünleri gibi kalsiyumca zengin besinler ile birlikte alınmamalıdır. Asitli besinlerden dolayı artan mide asidi ilacın midedeki harabiyetini artırır. Kalsiyum ilacın kandaki emilimini azaltabilir",
         
@@ -46,7 +46,7 @@ const constants = [
 
     },
     {
-       title:"ANTİKOAGÜLANLAR",
+       title:"Antihipertansifler",
 
        description1:`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas venenatis, dui ac ultrices rutrum, lectus eros ornare ipsum, a rutrum nisl orci nec justo. Aenean faucibus magna et sollicitudin dapibus. Donec eleifend tincidunt est vel porttitor. Phasellus diam risus, lobortis non rutrum et, sagittis eget ligula. Duis id varius justo. Fusce quam velit, tempus nec mauris at, eleifend iaculis quam. Vivamus sodales orci non tellus ultrices sollicitudin. Duis sagittis mauris urna, ac blandit tortor gravida id. Proin mollis faucibus risus a consequat.
 
@@ -66,7 +66,7 @@ const constants = [
        image2: apple3,
     },
     {
-       title:"ANTİKOAGÜLANLAR",
+       title:"İnsülin ve Oral Antidiyabetikler",
 
        image1:nar,
 
@@ -78,28 +78,28 @@ const constants = [
        color:"bg-lime-600"
     },
     {
-       title:"ANTİKOAGÜLANLAR",
+       title:"Antibiyotikler",
 
        description:"K Vitaminince zengin besinlerle Brokoli, Brüksel lahanası, Ispanak, Lahana, E Vitamini ile birlikte alınmamalıdır. K Vitamini antikoagülanların etkisini azaltır.",
     
        color:"bg-violet-800"
     },
     {
-       title:"ANTİKOAGÜLANLAR",
+       title:"Nörolojik İlaçlar",
 
        description:"K Vitaminince zengin besinlerle Brokoli, Brüksel lahanası, Ispanak, Lahana, E Vitamini ile birlikte alınmamalıdır. K Vitamini antikoagülanların etkisini azaltır.",
     
        color:"bg-rose-500"
     },
     {
-       title:"ANTİKOAGÜLANLAR",
+       title:"Steroidler",
 
        description:"K Vitaminince zengin besinlerle Brokoli, Brüksel lahanası, Ispanak, Lahana, E Vitamini ile birlikte alınmamalıdır. K Vitamini antikoagülanların etkisini azaltır.",
     
        color:"bg-orange-700"
     },
     {
-       title:"ANTİKOAGÜLANLAR",
+       title:"Aspirin ve NSAID'ler",
 
        description:"K Vitaminince zengin besinlerle Brokoli, Brüksel lahanası, Ispanak, Lahana, E Vitamini ile birlikte alınmamalıdır. K Vitamini antikoagülanların etkisini azaltır.",
     
@@ -107,21 +107,21 @@ const constants = [
        
     },
     {
-       title:"ANTİKOAGÜLANLAR",
+       title:"Kolesterol İlaçları",
 
        description:"K Vitaminince zengin besinlerle Brokoli, Brüksel lahanası, Ispanak, Lahana, E Vitamini ile birlikte alınmamalıdır. K Vitamini antikoagülanların etkisini azaltır.",
     
        color:"bg-amber-950"
     },
     {
-       title:"ANTİKOAGÜLANLAR",
+       title:"Tiroid İlaçları",
 
        description:"K Vitaminince zengin besinlerle Brokoli, Brüksel lahanası, Ispanak, Lahana, E Vitamini ile birlikte alınmamalıdır. K Vitamini antikoagülanların etkisini azaltır.",
     
        color:"bg-pink-700"
     },
     {
-       title:"ANTİKOAGÜLANLAR",
+       title:"Gastrointestinal İlaçlar",
 
        description:"K Vitaminince zengin besinlerle Brokoli, Brüksel lahanası, Ispanak, Lahana, E Vitamini ile birlikte alınmamalıdır. K Vitamini antikoagülanların etkisini azaltır.",
     

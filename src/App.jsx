@@ -34,7 +34,7 @@ function App() {
           </div>
       </section>
      <section className='flex justify-center items-center animate-infinite-gradient-color'>
-     <div className='grid  gap-9  2xl:grid-cols-5 xl:grid-cols-4 lg:grid-cols-3 items-center   max-md:gap-3  md:grid-cols-2 max-sm:grid-cols-2  mt-40     '>
+     <div className='grid   gap-16  2xl:grid-cols-5 xl:grid-cols-4 lg:grid-cols-3 items-center   max-md:gap-3  md:grid-cols-2 max-sm:grid-cols-2  mt-40     '>
      {constants?.map(con=>(
        
 
