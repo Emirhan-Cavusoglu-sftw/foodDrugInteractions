@@ -32,7 +32,7 @@ function App() {
           
       </section>
      <section className='flex justify-center  flex-wrap items-center animate-infinite-gradient-color'>
-     <motion.div className='grid   gap-20   2xl:grid-cols-5 xl:grid-cols-2   lg:grid-cols-4  justify-center items-center   max-md:gap-3  md:grid-cols-2 max-sm:grid-cols-2  mt-40     '
+     <motion.div className='grid   gap-20   2xl:grid-cols-2 xl:grid-cols-2   lg:grid-cols-4  justify-center items-center   max-md:gap-3  md:grid-cols-2 max-sm:grid-cols-2  mt-40     '
      initial={{opacity:0 , y:100}}
      animate={{opacity:1, y:0}}
      transition={{duration:1, delay:0.5}}
