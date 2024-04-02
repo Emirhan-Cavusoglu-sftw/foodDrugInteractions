@@ -4,7 +4,7 @@ import Card from './components/Card'
 import { constants } from './constants'
 import { Route,Routes,Link } from 'react-router-dom'
 import Description from './components/Description'
-
+import {motion} from 'framer-motion'
 
 function App() {
   
@@ -29,19 +29,21 @@ function App() {
 
             
           </ul>
-          <div>
-            sdfa
-          </div>
+          
       </section>
-     <section className='flex justify-center items-center animate-infinite-gradient-color'>
-     <div className='grid   gap-16  2xl:grid-cols-5 xl:grid-cols-4 lg:grid-cols-3 items-center   max-md:gap-3  md:grid-cols-2 max-sm:grid-cols-2  mt-40     '>
+     <section className='flex justify-center  flex-wrap items-center animate-infinite-gradient-color'>
+     <motion.div className='grid   gap-20   2xl:grid-cols-5 xl:grid-cols-2   lg:grid-cols-4  justify-center items-center   max-md:gap-3  md:grid-cols-2 max-sm:grid-cols-2  mt-40     '
+     initial={{opacity:0 , y:100}}
+     animate={{opacity:1, y:0}}
+     transition={{duration:1, delay:0.5}}
+     >
      {constants?.map(con=>(
        
 
         <Card constants={con}></Card>
         
         ))}
-        </div>
+        </motion.div>
         </section>
         </>
         }

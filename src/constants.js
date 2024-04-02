@@ -17,26 +17,36 @@ import { nar,apple1,apple2 ,apple3} from "./assets/images";
 
 const constants = [
     {
-        title:"Kan Sulandırıcılar",
+        title:"Kardiyo Vasküler İlaçlar",
 
         description:"Asitli besinler; Kafein, domates, meyva suları,asitli besinler; Kafein, domates,süt ve süt ürünleri gibi kalsiyumca zengin besinler ile birlikte alınmamalıdır. Asitli besinlerden dolayı artan mide asidi ilacın midedeki harabiyetini artırır. Kalsiyum ilacın kandaki emilimini azaltabilir",
         
-        description1:`Antibiyotikler, bakteriler, mantarlar ve diğer mikroorganizmalar gibi patojenleri öldürmek veya çoğalmalarını engellemek amacıyla kullanılan kimyasal bileşiklerdir. Antibiyotikler, enfeksiyonları tedavi etmek ve kontrol altına almak için yaygın olarak kullanılırlar. İlk antibiyotikler, 20. yüzyılın başlarında keşfedildi ve enfeksiyon hastalıklarının tedavisinde devrim yarattılar. 
-
-        Antibiyotikler, mikroorganizmaların büyümesini ve çoğalmasını engelleyen veya onları öldüren özel kimyasal bileşiklerdir. Bu, vücuda giren patojenlerin yayılmasını durdurarak enfeksiyonların kontrol altına alınmasına yardımcı olur. Antibiyotikler aynı zamanda bakterilerin hücre duvarını bozar, protein sentezini engeller veya DNA replikasyonunu engelleyerek etki edebilirler. 
-        
-        Antibiyotikler genellikle doktorlar tarafından hastalara enfeksiyonlarını tedavi etmek veya önlemek için reçete edilir. Ancak, antibiyotiklerin yanlış kullanımı, direnç gelişmesine ve enfeksiyonların daha zorlu bir şekilde tedavi edilmesine yol açabilir. Bu nedenle, antibiyotikler her zaman doktorun talimatlarına göre kullanılmalı ve reçete edildiği şekilde alınmalıdır.
-        
-        
+        subtitle1:"ACE İNHİBİTÖRLERİ",
+        description1:`Angiotensin converting enzyme (ACE) inhibitörleri, yüksek tansiyon (hipertansiyon) ve kalp yetmezliği gibi kardiyovasküler hastalıkların tedavisinde kullanılan bir ilaç sınıfıdır. Bu ilaçlar, ACE enzimini engelleyerek, kan damarlarının genişlemesine ve kan basıncının düşmesine yardımcı olurlar. Ayrıca, kalp yetmezliği durumunda kalbin iş yükünü azaltarak kalp fonksiyonlarını iyileştirebilirler. ACE inhibitörleri genellikle hipertansiyon, koroner arter hastalığı, kalp yetmezliği ve diyabetik nefropati gibi durumların tedavisinde kullanılır.
         `
         ,
+        description1v1:`ACE inhibitörleri, potasyum seviyelerini artırabilir. Bu nedenle, potasyum içeriği yüksek gıdaların aşırı tüketimi (muz, portakal, ıspanak gibi) potansiyel olarak potasyum birikimine ve istenmeyen yan etkilere yol açabilir.`
+        ,
+        description1v2:`ACE inhibitörleri tansiyonu düşürdüğü için tuz değiştiricileri veya aşırı tuzlu gıdaların (hazır çorbalar, konserve gıdalar, tuzlu atıştırmalıklar) kullanımı, kan basıncındaki düşüşü artırabilir.`,
         
+        description1v3:`ACE inhibitörleriyle birlikte alkol alımı, kan basıncında aşırı düşüşlere veya baş dönmesi gibi yan etkilere neden olabilir.`,
         
-        list1:`Antibiyotikler süt ve süt ürünleri gibi kalsiyumca zengin besinlerle birlikte alınmamalı.Kalsiyum, ilacın oral biyoyararlanımını azaltır.`,
+        description1v4:`ACE inhibitörleri, kalsiyum metabolizmasını etkileyebilir. Kalsiyum takviyeleri veya kalsiyum içeren gıdaların (süt, peynir, yoğurt gibi) aşırı tüketimi, ilaçların etkinliğini etkileyebilir.`,
+         
+        subtitle2:`ANTİHİPERTANSİFLER`,
         
-        list2:`Antibiyotikler asitli besinler; meyve suları, kafein, domates ile birlikte alınmamalı. Asitli    besinlerden dolayı artan mide asidi ilacın midede harabiyetini`,
+        description2:`Antihipertansifler, yüksek tansiyonu (hipertansiyon) kontrol altına almak için kullanılan ilaçlardır. Bu ilaçlar, kan basıncını düşürmek için farklı mekanizmaları hedef alır. Örneğin, ACE inhibitörleri, beta blokörler, kalsiyum kanal blokörleri ve diüretikler gibi farklı sınıflardan antihipertansif ilaçlar, kan damarlarının genişlemesini sağlayarak veya kalp atış hızını ve gücünü azaltarak kan basıncını düşürebilirler. Antihipertansifler, hipertansiyonun komplikasyonlarını önlemek ve kalp-damar sağlığını korumak için önemlidir ve düzenli olarak kullanılmalıdırlar.`,
         
+        description2v1:`Bazı antihpertansif ilaçlar potasyum seviyelerini etkileyebilir. Potasyum takviyeleri veya potasyum içeriği yüksek gıdaların (muz, patates, ıspanak gibi) aşırı tüketimi, kan potasyum seviyelerinde anormalliklere yol açabilir.`,
+        
+        description2v2:`Alkol, kan basıncını etkileyebilir. Antihpertansif ilaçlarla birlikte alkol alımı, kan basıncında aşırı düşüşlere veya baş dönmesi gibi yan etkilere neden olabilir.`,
 
+        description2v3:`Antihpertansif ilaçlar, kan basıncını düşürmek için kullanıldığından, tuz değiştiricileri veya yüksek tuz içeriğine sahip gıdaların (hazır çorbalar, konserve gıdalar, tuzlu atıştırmalıklar) kullanımı, kan basıncındaki düşüşü artırabilir.`,
+        
+        description2v4:`Kalsiyum kanal blokörleri gibi antihpertansif ilaçlar, kalsiyum metabolizmasını etkileyebilir. Bu nedenle, kalsiyum takviyeleri ile birlikte kullanıldığında, ilaçların etkinliği etkilenebilir.`,
+        
+        description2v5:``,
+        
         color:"bg-lime-950",
 
         image1:nar,
@@ -46,7 +56,7 @@ const constants = [
 
     },
     {
-       title:"Antihipertansifler",
+       title:"Antitümör İlaçlar",
 
        description1:`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas venenatis, dui ac ultrices rutrum, lectus eros ornare ipsum, a rutrum nisl orci nec justo. Aenean faucibus magna et sollicitudin dapibus. Donec eleifend tincidunt est vel porttitor. Phasellus diam risus, lobortis non rutrum et, sagittis eget ligula. Duis id varius justo. Fusce quam velit, tempus nec mauris at, eleifend iaculis quam. Vivamus sodales orci non tellus ultrices sollicitudin. Duis sagittis mauris urna, ac blandit tortor gravida id. Proin mollis faucibus risus a consequat.
 
@@ -66,7 +76,7 @@ const constants = [
        image2: apple3,
     },
     {
-       title:"İnsülin ve Oral Antidiyabetikler",
+       title:"Nörolojik İlaçlar",
 
        image1:nar,
 
@@ -78,28 +88,28 @@ const constants = [
        color:"bg-lime-600"
     },
     {
-       title:"Antibiyotikler",
+       title:"Gastrointestinal İlaçlar",
 
        description:"K Vitaminince zengin besinlerle Brokoli, Brüksel lahanası, Ispanak, Lahana, E Vitamini ile birlikte alınmamalıdır. K Vitamini antikoagülanların etkisini azaltır.",
     
        color:"bg-violet-800"
     },
     {
-       title:"Nörolojik İlaçlar",
+       title:"Antibiyotikler",
 
        description:"K Vitaminince zengin besinlerle Brokoli, Brüksel lahanası, Ispanak, Lahana, E Vitamini ile birlikte alınmamalıdır. K Vitamini antikoagülanların etkisini azaltır.",
     
        color:"bg-rose-500"
     },
     {
-       title:"Steroidler",
+       title:"Antikoagülanlar ve Trombolitikler",
 
        description:"K Vitaminince zengin besinlerle Brokoli, Brüksel lahanası, Ispanak, Lahana, E Vitamini ile birlikte alınmamalıdır. K Vitamini antikoagülanların etkisini azaltır.",
     
        color:"bg-orange-700"
     },
     {
-       title:"Aspirin ve NSAID'ler",
+       title:"Metabolik İlaçlar",
 
        description:"K Vitaminince zengin besinlerle Brokoli, Brüksel lahanası, Ispanak, Lahana, E Vitamini ile birlikte alınmamalıdır. K Vitamini antikoagülanların etkisini azaltır.",
     
@@ -107,21 +117,21 @@ const constants = [
        
     },
     {
-       title:"Kolesterol İlaçları",
+       title:"Anttinflamatuar İlaçlar",
 
        description:"K Vitaminince zengin besinlerle Brokoli, Brüksel lahanası, Ispanak, Lahana, E Vitamini ile birlikte alınmamalıdır. K Vitamini antikoagülanların etkisini azaltır.",
     
        color:"bg-amber-950"
     },
     {
-       title:"Tiroid İlaçları",
+       title:"Hormonal İlaçlar",
 
        description:"K Vitaminince zengin besinlerle Brokoli, Brüksel lahanası, Ispanak, Lahana, E Vitamini ile birlikte alınmamalıdır. K Vitamini antikoagülanların etkisini azaltır.",
     
        color:"bg-pink-700"
     },
     {
-       title:"Gastrointestinal İlaçlar",
+       title:"Diğer İlaçlar",
 
        description:"K Vitaminince zengin besinlerle Brokoli, Brüksel lahanası, Ispanak, Lahana, E Vitamini ile birlikte alınmamalıdır. K Vitamini antikoagülanların etkisini azaltır.",
     
