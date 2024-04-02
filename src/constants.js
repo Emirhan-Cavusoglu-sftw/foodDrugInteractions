@@ -17,7 +17,7 @@ import { nar,apple1,apple2 ,apple3} from "./assets/images";
 
 const constants = [
     {
-        title:"Kardiyo Vasküler İlaçlar",
+        title:"Kardiyovasküler İlaçlar",
 
         description:"Asitli besinler; Kafein, domates, meyva suları,asitli besinler; Kafein, domates,süt ve süt ürünleri gibi kalsiyumca zengin besinler ile birlikte alınmamalıdır. Asitli besinlerden dolayı artan mide asidi ilacın midedeki harabiyetini artırır. Kalsiyum ilacın kandaki emilimini azaltabilir",
         
