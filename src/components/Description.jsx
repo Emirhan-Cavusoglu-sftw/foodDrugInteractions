@@ -147,14 +147,14 @@ const Description = ({ constants }) => {
   }, [title]);
 
   return (
-    <main className="flex flex-col leading-10 text-center justify-center items-center bg-gradient-to-b from-gray-900 via-purple-900 to-violet-700  min-h-[200vh]  ">
+    <main className="flex flex-col leading-10 px-10 text-center justify-center items-center bg-gradient-to-b from-gray-900 via-purple-900 to-violet-700  min-h-[200vh]  ">
       <motion.div
         className="mb-[550px] mt-10  text-justify flex flex-col justify-center items-center  max-w-[1000px] "
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 4, delay: 0.9, type: "spring" }}
       >
-        <h1 className=" text-5xl font-bold font-rightheus   text-transparent bg-clip-text bg-gradient-to-r from-yellow-200 via-violet-400 to-lime-400">
+        <h1 className=" md:text-5xl  text-3xl  font-bold font-rightheus   text-transparent bg-clip-text bg-gradient-to-r from-yellow-200 via-violet-400 to-lime-400">
           {titlee}
         </h1>
 
@@ -170,20 +170,18 @@ const Description = ({ constants }) => {
 
         <ul className="list-disc text-xl mt-32  font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-amber-300 via-amber-400 to-amber-500 space-y-5 ">
           <li>
-            <h1 className="text-2xl bg-gradient-to-r text-transparent bg-clip-text from-yellow-200 via-violet-400 to-lime-400">
+            <h1 className="text-xl bg-gradient-to-r text-transparent bg-clip-text from-yellow-200 via-violet-400 to-lime-400">
               {subtitle1}
             </h1>
           </li>
           <li>
             <blockquote>
-              <p
-                className="mt-14  font-bold font-palanquin text-transparent bg-clip-text 
- leading-10 text-2xl  max-w-5xl  "
-              >
+              <p className="mt-8 sm:mt-14 font-bold font-palanquin text-transparent bg-clip-text leading-relaxed sm:leading-10 text-lg sm:text-xl max-w-full sm:max-w-5xl">
                 {description1}
               </p>
             </blockquote>
           </li>
+
           <li>
             <blockquote>
               <p
