@@ -147,9 +147,9 @@ const Description = ({ constants }) => {
   }, [title]);
 
   return (
-    <main className="flex flex-col leading-10 px-10 text-center justify-center items-center bg-gradient-to-b from-gray-900 via-purple-900 to-violet-700  min-h-[200vh]  ">
+    <main className="flex flex-col  px-10 w-full text-center justify-center items-center bg-gradient-to-b from-gray-900 via-purple-700 to-purple-900  min-h-[200vh]  ">
       <motion.div
-        className="mb-[550px] mt-10  text-justify flex flex-col justify-center items-center  max-w-[1000px] "
+        className="mb-[550px] mt-10 w-full text-left sm:text-justify flex flex-col justify-center items-center  max-w-[1000px] "
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 4, delay: 0.9, type: "spring" }}
@@ -168,132 +168,97 @@ const Description = ({ constants }) => {
         
         */}
 
-        <ul className="list-disc text-xl mt-32  font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-amber-300 via-amber-400 to-amber-500 space-y-5 ">
+        <ul className="mt-32 w-full font-bold text-transparent bg-clip-text bg-gradient-to-r  from-amber-300 via-amber-400 to-amber-500  ">
           <li>
-            <h1 className="text-xl bg-gradient-to-r text-transparent bg-clip-text from-yellow-200 via-violet-400 to-lime-400">
+            <h1 className="mt-8 text-lg sm:text-2xl bg-gradient-to-r text-transparent bg-clip-text from-yellow-200 via-violet-400 to-lime-400">
               {subtitle1}
             </h1>
           </li>
           <li>
             <blockquote>
-              <p className="mt-8 sm:mt-14 font-bold font-palanquin text-transparent bg-clip-text leading-relaxed sm:leading-10 text-lg sm:text-xl max-w-full sm:max-w-5xl">
+              <p className="mt-8 sm:mt-14 font-bold font-palanquin text-transparent bg-clip-text  leading-6 sm:leading-10  sm:text-2xl max-w-full sm:max-w-5xl">
                 {description1}
               </p>
             </blockquote>
           </li>
 
           <li>
-            <blockquote>
-              <p
-                className="mt-14  font-bold font-palanquin text-transparent bg-clip-text 
- leading-10 text-2xl  max-w-5xl  "
-              >
-                {description1v1}
-              </p>
-            </blockquote>
+            <p className="mt-8 sm:mt-14 font-bold font-palanquin text-transparent bg-clip-text  leading-6 sm:leading-10  sm:text-2xl max-w-full sm:max-w-5xl">
+              {description1v1}
+            </p>
           </li>
           <li>
             <blockquote>
-              <p
-                className="mt-14  font-bold font-palanquin text-transparent bg-clip-text 
- leading-10 text-2xl  max-w-5xl  "
-              >
+              <p className="mt-8 sm:mt-14 font-bold font-palanquin text-transparent bg-clip-text  leading-6 sm:leading-10  sm:text-2xl max-w-full sm:max-w-5xl">
                 {description1v2}
               </p>
             </blockquote>
           </li>
           <li>
             <blockquote>
-              <p
-                className="mt-14  font-bold font-palanquin text-transparent bg-clip-text 
- leading-10 text-2xl  max-w-5xl  "
-              >
+              <p className="mt-8 sm:mt-14 font-bold font-palanquin text-transparent bg-clip-text  leading-6 sm:leading-10  sm:text-2xl max-w-full sm:max-w-5xl">
                 {description1v3}
               </p>
             </blockquote>
           </li>
           <li>
             <blockquote>
-              <p
-                className="mt-14  font-bold font-palanquin text-transparent bg-clip-text 
- leading-10 text-2xl  max-w-5xl  "
-              >
+              <p className="mt-8 sm:mt-14 font-bold font-palanquin text-transparent bg-clip-text  leading-6 sm:leading-10  sm:text-2xl max-w-full sm:max-w-5xl">
                 {description1v4}
               </p>
             </blockquote>
           </li>
           <ul>
             <li>
-              <h1 className="text-2xl bg-gradient-to-r text-transparent bg-clip-text from-yellow-200 via-violet-400 to-lime-400">
+              <h1 className="mt-8 text-lg sm:text-2xl bg-gradient-to-r text-transparent bg-clip-text from-yellow-200 via-violet-400 to-lime-400">
                 {subtitle2}
               </h1>
             </li>
             <li>
               <blockquote>
-                <p
-                  className="mt-14  font-bold font-palanquin text-transparent bg-clip-text 
- leading-10 text-2xl  max-w-5xl  "
-                >
+                <p className="mt-8 sm:mt-14 font-bold font-palanquin text-transparent bg-clip-text  leading-6 sm:leading-10  sm:text-2xl max-w-full sm:max-w-5xl">
                   {description2}
                 </p>
               </blockquote>
             </li>
             <li>
               <blockquote>
-                <p
-                  className="mt-14  font-bold font-palanquin text-transparent bg-clip-text 
- leading-10 text-2xl  max-w-5xl  "
-                >
+                <p className="mt-8 sm:mt-14 font-bold font-palanquin text-transparent bg-clip-text  leading-6 sm:leading-10  sm:text-2xl max-w-full sm:max-w-5xl">
                   {description2v1}
                 </p>
               </blockquote>
             </li>
             <li>
               <blockquote>
-                <p
-                  className="mt-14  font-bold font-palanquin text-transparent bg-clip-text 
- leading-10 text-2xl  max-w-5xl  "
-                >
+                <p className="mt-8 sm:mt-14 font-bold font-palanquin text-transparent bg-clip-text  leading-6 sm:leading-10  sm:text-2xl max-w-full sm:max-w-5xl">
                   {description2v2}
                 </p>
               </blockquote>
             </li>
             <li>
               <blockquote>
-                <p
-                  className="mt-14  font-bold font-palanquin text-transparent bg-clip-text 
- leading-10 text-2xl  max-w-5xl  "
-                >
+                <p className="mt-8 sm:mt-14 font-bold font-palanquin text-transparent bg-clip-text  leading-6 sm:leading-10  sm:text-2xl max-w-full sm:max-w-5xl">
                   {description2v3}
                 </p>
               </blockquote>
             </li>
             <li>
               <blockquote>
-                <p
-                  className="mt-14  font-bold font-palanquin text-transparent bg-clip-text 
- leading-10 text-2xl  max-w-5xl  "
-                >
+                <p className="mt-8 sm:mt-14 font-bold font-palanquin text-transparent bg-clip-text  leading-6 sm:leading-10  sm:text-2xl max-w-full sm:max-w-5xl">
                   {description2v4}
                 </p>
               </blockquote>
             </li>
             <li>
               <blockquote>
-                <p
-                  className="mt-14  font-bold font-palanquin text-transparent bg-clip-text 
- leading-10 text-2xl  max-w-5xl  "
-                >
+                <p className="mt-8 sm:mt-14 font-bold font-palanquin text-transparent bg-clip-text  leading-6 sm:leading-10  sm:text-2xl max-w-full sm:max-w-5xl">
                   {description2v5}
                 </p>
               </blockquote>
             </li>
             <li>
               <blockquote>
-                <p
-                  className="mt-14  font-bold font-palanquin text-transparent bg-clip-text 
- leading-10 text-2xl  max-w-5xl  "
-                >
+                <p className="mt-8 sm:mt-14 font-bold font-palanquin text-transparent bg-clip-text  leading-6 sm:leading-10  sm:text-2xl max-w-full sm:max-w-5xl">
                   {description2v6}
                 </p>
               </blockquote>
@@ -301,56 +266,41 @@ const Description = ({ constants }) => {
           </ul>
           <ul>
             <li>
-              <h1 className="text-2xl bg-gradient-to-r text-transparent bg-clip-text from-yellow-200 via-violet-400 to-lime-400">
+              <h1 className="mt-8 text-lg sm:text-2xl bg-gradient-to-r text-transparent bg-clip-text from-yellow-200 via-violet-400 to-lime-400">
                 {subtitle3}
               </h1>
             </li>
             <li>
               <blockquote>
-                <p
-                  className="mt-14  font-bold font-palanquin text-transparent bg-clip-text 
- leading-10 text-2xl  max-w-5xl  "
-                >
+                <p className="mt-8 sm:mt-14 font-bold font-palanquin text-transparent bg-clip-text  leading-6 sm:leading-10  sm:text-2xl max-w-full sm:max-w-5xl">
                   {description3}
                 </p>
               </blockquote>
             </li>
             <li>
               <blockquote>
-                <p
-                  className="mt-14  font-bold font-palanquin text-transparent bg-clip-text 
- leading-10 text-2xl  max-w-5xl  "
-                >
+                <p className="mt-8 sm:mt-14 font-bold font-palanquin text-transparent bg-clip-text  leading-6 sm:leading-10  sm:text-2xl max-w-full sm:max-w-5xl">
                   {description3v1}
                 </p>
               </blockquote>
             </li>
             <li>
               <blockquote>
-                <p
-                  className="mt-14  font-bold font-palanquin text-transparent bg-clip-text 
- leading-10 text-2xl  max-w-5xl  "
-                >
+                <p className="mt-8 sm:mt-14 font-bold font-palanquin text-transparent bg-clip-text  leading-6 sm:leading-10  sm:text-2xl max-w-full sm:max-w-5xl">
                   {description3v2}
                 </p>
               </blockquote>
             </li>
             <li>
               <blockquote>
-                <p
-                  className="mt-14  font-bold font-palanquin text-transparent bg-clip-text 
- leading-10 text-2xl  max-w-5xl  "
-                >
+                <p className="mt-8 sm:mt-14 font-bold font-palanquin text-transparent bg-clip-text  leading-6 sm:leading-10  sm:text-2xl max-w-full sm:max-w-5xl">
                   {description3v3}
                 </p>
               </blockquote>
             </li>
             <li>
               <blockquote>
-                <p
-                  className="mt-14  font-bold font-palanquin text-transparent bg-clip-text 
- leading-10 text-2xl  max-w-5xl  "
-                >
+                <p className="mt-8 sm:mt-14 font-bold font-palanquin text-transparent bg-clip-text  leading-6 sm:leading-10  sm:text-2xl max-w-full sm:max-w-5xl">
                   {description3v4}
                 </p>
               </blockquote>
@@ -358,56 +308,41 @@ const Description = ({ constants }) => {
           </ul>
           <ul>
             <li>
-              <h1 className="text-2xl bg-gradient-to-r text-transparent bg-clip-text from-yellow-200 via-violet-400 to-lime-400">
+              <h1 className="mt-8 text-lg sm:text-2xl bg-gradient-to-r text-transparent bg-clip-text from-yellow-200 via-violet-400 to-lime-400">
                 {subtitle4}
               </h1>
             </li>
             <li>
               <blockquote>
-                <p
-                  className="mt-14  font-bold font-palanquin text-transparent bg-clip-text 
- leading-10 text-2xl  max-w-5xl  "
-                >
+                <p className="mt-8 sm:mt-14 font-bold font-palanquin text-transparent bg-clip-text  leading-6 sm:leading-10  sm:text-2xl max-w-full sm:max-w-5xl">
                   {description4}
                 </p>
               </blockquote>
             </li>
             <li>
               <blockquote>
-                <p
-                  className="mt-14  font-bold font-palanquin text-transparent bg-clip-text 
- leading-10 text-2xl  max-w-5xl  "
-                >
+                <p className="mt-8 sm:mt-14 font-bold font-palanquin text-transparent bg-clip-text  leading-6 sm:leading-10  sm:text-2xl max-w-full sm:max-w-5xl">
                   {description4v1}
                 </p>
               </blockquote>
             </li>
             <li>
               <blockquote>
-                <p
-                  className="mt-14  font-bold font-palanquin text-transparent bg-clip-text 
- leading-10 text-2xl  max-w-5xl  "
-                >
+                <p className="mt-8 sm:mt-14 font-bold font-palanquin text-transparent bg-clip-text  leading-6 sm:leading-10  sm:text-2xl max-w-full sm:max-w-5xl">
                   {description4v2}
                 </p>
               </blockquote>
             </li>
             <li>
               <blockquote>
-                <p
-                  className="mt-14  font-bold font-palanquin text-transparent bg-clip-text 
- leading-10 text-2xl  max-w-5xl  "
-                >
+                <p className="mt-8 sm:mt-14 font-bold font-palanquin text-transparent bg-clip-text  leading-6 sm:leading-10  sm:text-2xl max-w-full sm:max-w-5xl">
                   {description4v3}
                 </p>
               </blockquote>
             </li>
             <li>
               <blockquote>
-                <p
-                  className="mt-14  font-bold font-palanquin text-transparent bg-clip-text 
- leading-10 text-2xl  max-w-5xl  "
-                >
+                <p className="mt-8 sm:mt-14 font-bold font-palanquin text-transparent bg-clip-text  leading-6 sm:leading-10  sm:text-2xl max-w-full sm:max-w-5xl">
                   {description4v4}
                 </p>
               </blockquote>
@@ -415,56 +350,41 @@ const Description = ({ constants }) => {
           </ul>
           <ul>
             <li>
-              <h1 className="text-2xl bg-gradient-to-r text-transparent bg-clip-text from-yellow-200 via-violet-400 to-lime-400">
+              <h1 className="mt-8 text-lg sm:text-2xl bg-gradient-to-r text-transparent bg-clip-text from-yellow-200 via-violet-400 to-lime-400">
                 {subtitle5}
               </h1>
             </li>
             <li>
               <blockquote>
-                <p
-                  className="mt-14  font-bold font-palanquin text-transparent bg-clip-text 
- leading-10 text-2xl  max-w-5xl  "
-                >
+                <p className="mt-8 sm:mt-14 font-bold font-palanquin text-transparent bg-clip-text  leading-6 sm:leading-10  sm:text-2xl max-w-full sm:max-w-5xl">
                   {description5}
                 </p>
               </blockquote>
             </li>
             <li>
               <blockquote>
-                <p
-                  className="mt-14  font-bold font-palanquin text-transparent bg-clip-text 
- leading-10 text-2xl  max-w-5xl  "
-                >
+                <p className="mt-8 sm:mt-14 font-bold font-palanquin text-transparent bg-clip-text  leading-6 sm:leading-10  sm:text-2xl max-w-full sm:max-w-5xl">
                   {description5v1}
                 </p>
               </blockquote>
             </li>
             <li>
               <blockquote>
-                <p
-                  className="mt-14  font-bold font-palanquin text-transparent bg-clip-text 
- leading-10 text-2xl  max-w-5xl  "
-                >
+                <p className="mt-8 sm:mt-14 font-bold font-palanquin text-transparent bg-clip-text  leading-6 sm:leading-10  sm:text-2xl max-w-full sm:max-w-5xl">
                   {description5v2}
                 </p>
               </blockquote>
             </li>
             <li>
               <blockquote>
-                <p
-                  className="mt-14  font-bold font-palanquin text-transparent bg-clip-text 
- leading-10 text-2xl  max-w-5xl  "
-                >
+                <p className="mt-8 sm:mt-14 font-bold font-palanquin text-transparent bg-clip-text  leading-6 sm:leading-10  sm:text-2xl max-w-full sm:max-w-5xl">
                   {description5v3}
                 </p>
               </blockquote>
             </li>
             <li>
               <blockquote>
-                <p
-                  className="mt-14  font-bold font-palanquin text-transparent bg-clip-text 
- leading-10 text-2xl  max-w-5xl  "
-                >
+                <p className="mt-8 sm:mt-14 font-bold font-palanquin text-transparent bg-clip-text  leading-6 sm:leading-10  sm:text-2xl max-w-full sm:max-w-5xl">
                   {description5v4}
                 </p>
               </blockquote>
@@ -472,56 +392,41 @@ const Description = ({ constants }) => {
           </ul>
           <ul>
             <li>
-              <h1 className="text-2xl bg-gradient-to-r text-transparent bg-clip-text from-yellow-200 via-violet-400 to-lime-400">
+              <h1 className="mt-8 text-lg sm:text-2xl bg-gradient-to-r text-transparent bg-clip-text from-yellow-200 via-violet-400 to-lime-400">
                 {subtitle6}
               </h1>
             </li>
             <li>
               <blockquote>
-                <p
-                  className="mt-14  font-bold font-palanquin text-transparent bg-clip-text 
- leading-10 text-2xl  max-w-5xl  "
-                >
+                <p className="mt-8 sm:mt-14 font-bold font-palanquin text-transparent bg-clip-text  leading-6 sm:leading-10  sm:text-2xl max-w-full sm:max-w-5xl">
                   {description6}
                 </p>
               </blockquote>
             </li>
             <li>
               <blockquote>
-                <p
-                  className="mt-14  font-bold font-palanquin text-transparent bg-clip-text 
- leading-10 text-2xl  max-w-5xl  "
-                >
+                <p className="mt-8 sm:mt-14 font-bold font-palanquin text-transparent bg-clip-text  leading-6 sm:leading-10  sm:text-2xl max-w-full sm:max-w-5xl">
                   {description6v1}
                 </p>
               </blockquote>
             </li>
             <li>
               <blockquote>
-                <p
-                  className="mt-14  font-bold font-palanquin text-transparent bg-clip-text 
- leading-10 text-2xl  max-w-5xl  "
-                >
+                <p className="mt-8 sm:mt-14 font-bold font-palanquin text-transparent bg-clip-text  leading-6 sm:leading-10  sm:text-2xl max-w-full sm:max-w-5xl">
                   {description6v2}
                 </p>
               </blockquote>
             </li>
             <li>
               <blockquote>
-                <p
-                  className="mt-14  font-bold font-palanquin text-transparent bg-clip-text 
- leading-10 text-2xl  max-w-5xl  "
-                >
+                <p className="mt-8 sm:mt-14 font-bold font-palanquin text-transparent bg-clip-text  leading-6 sm:leading-10  sm:text-2xl max-w-full sm:max-w-5xl">
                   {description6v3}
                 </p>
               </blockquote>
             </li>
             <li>
               <blockquote>
-                <p
-                  className="mt-14  font-bold font-palanquin text-transparent bg-clip-text 
- leading-10 text-2xl  max-w-5xl  "
-                >
+                <p className="mt-8 sm:mt-14 font-bold font-palanquin text-transparent bg-clip-text  leading-6 sm:leading-10  sm:text-2xl max-w-full sm:max-w-5xl">
                   {description6v4}
                 </p>
               </blockquote>
@@ -529,56 +434,41 @@ const Description = ({ constants }) => {
           </ul>
           <ul>
             <li>
-              <h1 className="text-2xl bg-gradient-to-r text-transparent bg-clip-text from-yellow-200 via-violet-400 to-lime-400">
+              <h1 className="mt-8 text-lg sm:text-2xl bg-gradient-to-r text-transparent bg-clip-text from-yellow-200 via-violet-400 to-lime-400">
                 {subtitle7}
               </h1>
             </li>
             <li>
               <blockquote>
-                <p
-                  className="mt-14  font-bold font-palanquin text-transparent bg-clip-text 
- leading-10 text-2xl  max-w-5xl  "
-                >
+                <p className="mt-8 sm:mt-14 font-bold font-palanquin text-transparent bg-clip-text  leading-6 sm:leading-10  sm:text-2xl max-w-full sm:max-w-5xl">
                   {description7}
                 </p>
               </blockquote>
             </li>
             <li>
               <blockquote>
-                <p
-                  className="mt-14  font-bold font-palanquin text-transparent bg-clip-text 
- leading-10 text-2xl  max-w-5xl  "
-                >
+                <p className="mt-8 sm:mt-14 font-bold font-palanquin text-transparent bg-clip-text  leading-6 sm:leading-10  sm:text-2xl max-w-full sm:max-w-5xl">
                   {description7v1}
                 </p>
               </blockquote>
             </li>
             <li>
               <blockquote>
-                <p
-                  className="mt-14  font-bold font-palanquin text-transparent bg-clip-text 
- leading-10 text-2xl  max-w-5xl  "
-                >
+                <p className="mt-8 sm:mt-14 font-bold font-palanquin text-transparent bg-clip-text  leading-6 sm:leading-10  sm:text-2xl max-w-full sm:max-w-5xl">
                   {description7v2}
                 </p>
               </blockquote>
             </li>
             <li>
               <blockquote>
-                <p
-                  className="mt-14  font-bold font-palanquin text-transparent bg-clip-text 
- leading-10 text-2xl  max-w-5xl  "
-                >
+                <p className="mt-8 sm:mt-14 font-bold font-palanquin text-transparent bg-clip-text  leading-6 sm:leading-10  sm:text-2xl max-w-full sm:max-w-5xl">
                   {description7v3}
                 </p>
               </blockquote>
             </li>
             <li>
               <blockquote>
-                <p
-                  className="mt-14  font-bold font-palanquin text-transparent bg-clip-text 
- leading-10 text-2xl  max-w-5xl  "
-                >
+                <p className="mt-8 sm:mt-14 font-bold font-palanquin text-transparent bg-clip-text  leading-6 sm:leading-10  sm:text-2xl max-w-full sm:max-w-5xl">
                   {description7v4}
                 </p>
               </blockquote>
@@ -586,56 +476,41 @@ const Description = ({ constants }) => {
           </ul>
           <ul>
             <li>
-              <h1 className="text-2xl bg-gradient-to-r text-transparent bg-clip-text from-yellow-200 via-violet-400 to-lime-400">
+              <h1 className="mt-8 text-lg sm:text-2xl bg-gradient-to-r text-transparent bg-clip-text from-yellow-200 via-violet-400 to-lime-400">
                 {subtitle8}
               </h1>
             </li>
             <li>
               <blockquote>
-                <p
-                  className="mt-14  font-bold font-palanquin text-transparent bg-clip-text 
- leading-10 text-2xl  max-w-5xl  "
-                >
+                <p className="mt-8 sm:mt-14 font-bold font-palanquin text-transparent bg-clip-text  leading-6 sm:leading-10  sm:text-2xl max-w-full sm:max-w-5xl">
                   {description8}
                 </p>
               </blockquote>
             </li>
             <li>
               <blockquote>
-                <p
-                  className="mt-14  font-bold font-palanquin text-transparent bg-clip-text 
- leading-10 text-2xl  max-w-5xl  "
-                >
+                <p className="mt-8 sm:mt-14 font-bold font-palanquin text-transparent bg-clip-text  leading-6 sm:leading-10  sm:text-2xl max-w-full sm:max-w-5xl">
                   {description8v1}
                 </p>
               </blockquote>
             </li>
             <li>
               <blockquote>
-                <p
-                  className="mt-14  font-bold font-palanquin text-transparent bg-clip-text 
- leading-10 text-2xl  max-w-5xl  "
-                >
+                <p className="mt-8 sm:mt-14 font-bold font-palanquin text-transparent bg-clip-text  leading-6 sm:leading-10  sm:text-2xl max-w-full sm:max-w-5xl">
                   {description8v2}
                 </p>
               </blockquote>
             </li>
             <li>
               <blockquote>
-                <p
-                  className="mt-14  font-bold font-palanquin text-transparent bg-clip-text 
- leading-10 text-2xl  max-w-5xl  "
-                >
+                <p className="mt-8 sm:mt-14 font-bold font-palanquin text-transparent bg-clip-text  leading-6 sm:leading-10  sm:text-2xl max-w-full sm:max-w-5xl">
                   {description8v3}
                 </p>
               </blockquote>
             </li>
             <li>
               <blockquote>
-                <p
-                  className="mt-14  font-bold font-palanquin text-transparent bg-clip-text 
- leading-10 text-2xl  max-w-5xl  "
-                >
+                <p className="mt-8 sm:mt-14 font-bold font-palanquin text-transparent bg-clip-text  leading-6 sm:leading-10  sm:text-2xl max-w-full sm:max-w-5xl">
                   {description8v4}
                 </p>
               </blockquote>
@@ -643,56 +518,41 @@ const Description = ({ constants }) => {
           </ul>
           <ul>
             <li>
-              <h1 className="text-2xl bg-gradient-to-r text-transparent bg-clip-text from-yellow-200 via-violet-400 to-lime-400">
+              <h1 className="mt-8 text-lg sm:text-2xl bg-gradient-to-r text-transparent bg-clip-text from-yellow-200 via-violet-400 to-lime-400">
                 {subtitle9}
               </h1>
             </li>
             <li>
               <blockquote>
-                <p
-                  className="mt-14  font-bold font-palanquin text-transparent bg-clip-text 
- leading-10 text-2xl  max-w-5xl  "
-                >
+                <p className="mt-8 sm:mt-14 font-bold font-palanquin text-transparent bg-clip-text  leading-6 sm:leading-10  sm:text-2xl max-w-full sm:max-w-5xl">
                   {description9}
                 </p>
               </blockquote>
             </li>
             <li>
               <blockquote>
-                <p
-                  className="mt-14  font-bold font-palanquin text-transparent bg-clip-text 
- leading-10 text-2xl  max-w-5xl  "
-                >
+                <p className="mt-8 sm:mt-14 font-bold font-palanquin text-transparent bg-clip-text  leading-6 sm:leading-10  sm:text-2xl max-w-full sm:max-w-5xl">
                   {description9v1}
                 </p>
               </blockquote>
             </li>
             <li>
               <blockquote>
-                <p
-                  className="mt-14  font-bold font-palanquin text-transparent bg-clip-text 
- leading-10 text-2xl  max-w-5xl  "
-                >
+                <p className="mt-8 sm:mt-14 font-bold font-palanquin text-transparent bg-clip-text  leading-6 sm:leading-10  sm:text-2xl max-w-full sm:max-w-5xl">
                   {description9v2}
                 </p>
               </blockquote>
             </li>
             <li>
               <blockquote>
-                <p
-                  className="mt-14  font-bold font-palanquin text-transparent bg-clip-text 
- leading-10 text-2xl  max-w-5xl  "
-                >
+                <p className="mt-8 sm:mt-14 font-bold font-palanquin text-transparent bg-clip-text  leading-6 sm:leading-10  sm:text-2xl max-w-full sm:max-w-5xl">
                   {description9v3}
                 </p>
               </blockquote>
             </li>
             <li>
               <blockquote>
-                <p
-                  className="mt-14  font-bold font-palanquin text-transparent bg-clip-text 
- leading-10 text-2xl  max-w-5xl  "
-                >
+                <p className="mt-8 sm:mt-14 font-bold font-palanquin text-transparent bg-clip-text  leading-6 sm:leading-10  sm:text-2xl max-w-full sm:max-w-5xl">
                   {description9v4}
                 </p>
               </blockquote>

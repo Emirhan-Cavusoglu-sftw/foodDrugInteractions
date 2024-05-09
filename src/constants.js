@@ -5,7 +5,7 @@ const constants = [
     title: "Kardiyovasküler İlaçlar",
 
     subtitle1: "ACE İNHİBİTÖRLERİ",
-    description1: `Angiotensin converting enzyme (ACE) inhibitörleri, yüksek tansiyon (hipertansiyon) ve kalp yetmezliği gibi kardiyovasküler hastalıkların tedavisinde kullanılan bir ilaç sınıfıdır. Bu ilaçlar, ACE enzimini engelleyerek, kan damarlarının genişlemesine ve kan basıncının düşmesine yardımcı olurlar. Ayrıca, kalp yetmezliği durumunda kalbin iş yükünü azaltarak kalp fonksiyonlarını iyileştirebilirler. ACE inhibitörleri genellikle hipertansiyon, koroner arter hastalığı, kalp yetmezliği ve diyabetik nefropati gibi durumların tedavisinde kullanılır.
+    description1:`Angiotensin converting enzyme (ACE) inhibitörleri, yüksek tansiyon (hipertansiyon) ve kalp yetmezliği gibi kardiyovasküler hastalıkların tedavisinde kullanılan bir ilaç sınıfıdır.Bu ilaçlar, ACE enzimini engelleyerek, kan damarlarının genişlemesine ve kan basıncının düşmesine yardımcı olurlar. Ayrıca, kalp yetmezliği durumunda kalbin iş yükünü azaltarak kalp fonksiyonlarını iyileştirebilirler. ACE inhibitörleri genellikle hipertansiyon, koroner arter hastalığı, kalp yetmezliği ve diyabetik nefropati gibi durumların tedavisinde kullanılır.
         `,
     description1v1: `ACE inhibitörleri, potasyum seviyelerini artırabilir. Bu nedenle, potasyum içeriği yüksek gıdaların aşırı tüketimi (muz, portakal, ıspanak gibi) potansiyel olarak potasyum birikimine ve istenmeyen yan etkilere yol açabilir.`,
     description1v2: `ACE inhibitörleri tansiyonu düşürdüğü için tuz değiştiricileri veya aşırı tuzlu gıdaların (hazır çorbalar, konserve gıdalar, tuzlu atıştırmalıklar) kullanımı, kan basıncındaki düşüşü artırabilir.`,
