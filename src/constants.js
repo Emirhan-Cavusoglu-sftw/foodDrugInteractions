@@ -441,7 +441,7 @@ const constants = [
     color: "bg-amber-500",
   },
   {
-    title: "Anttinflamatuar İlaçlar",
+    title: "Antiinflamatuar İlaçlar",
     subtitle1: "NON-STEROİD ANTİİNFLAMATUAR İLAÇLAR (NSAID'LER",
     description1: `Non-steroid antiinflamatuar ilaçlar (NSAID'ler), inflamasyonu azaltan, ağrıyı
       hafifleten ve ateşi düşüren bir antiinflamatuar ilaç sınıfını ifade eder. NSAID'ler,
@@ -527,7 +527,7 @@ const constants = [
       gıdalar, şarap, peynir, salam gibi bazı gıdalarda bulunur ve MAO enzimlerinin
       inhibisyonu durumunda vazokonstriksiyona neden olabilir.`,
 
-    subtitle3: "ANTİHİSTANARKOTİK ANALJEZİKLERİNİKLER",
+    subtitle3: "NARKOTİK ANALJEZİKLER",
     description3: `Narkotik analjezik ilaçlar, şiddetli ağrıyı hafifletmek veya kontrol altına almak için
       kullanılan opioid ilaç sınıfını ifade eder. Bu ilaçlar, merkezi sinir sistemine etki
       ederek ağrı algısını azaltır ve beyindeki ağrı reseptörlerine bağlanarak ağrı hissini
