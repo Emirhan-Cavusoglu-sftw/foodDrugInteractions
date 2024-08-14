@@ -47,7 +47,7 @@ function App() {
                       <Link to="/iletisim">İletişim</Link>
                     </li>
                   </ul>
-                  <Analytics/>
+                  
                   <AnimatePresence>
                     {isMenuOpen && (
                       <motion.ul
