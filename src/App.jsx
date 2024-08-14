@@ -13,7 +13,7 @@ function App() {
   return (
     <>
       <Routes>
-    <Analytics />
+        
         <Route
           path="/"
           element={
@@ -47,6 +47,7 @@ function App() {
                       <Link to="/iletisim">İletişim</Link>
                     </li>
                   </ul>
+                  <Analytics/>
                   <AnimatePresence>
                     {isMenuOpen && (
                       <motion.ul
@@ -93,11 +94,14 @@ function App() {
             </>
           }
         />
-        <Route path="/kaynakca" element={<Kaynakca />} />
-        <Route path="/iletisim" element={<Iletisim />} />
+        
+        <Route path="/kaynakca" element={<Kaynakca /> }  />
+        <Route path="/iletisim" element={<Iletisim />}  />
         <Route path="/:title" element={<Description constants={constants} />} />
       </Routes>
+      <Analytics/>
     </>
+    
   );
 }
 
