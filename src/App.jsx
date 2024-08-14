@@ -12,8 +12,8 @@ function App() {
 
   return (
     <>
-    <Analytics />
       <Routes>
+    <Analytics />
         <Route
           path="/"
           element={
