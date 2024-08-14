@@ -6,12 +6,13 @@ import Description from "./components/Description";
 import { motion, AnimatePresence } from "framer-motion";
 import Kaynakca from "./components/Kaynakca";
 import Iletisim from "./components/Iletisim";
-
+import { Analytics } from "@vercel/analytics/react"
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
     <>
+    <Analytics />
       <Routes>
         <Route
           path="/"
